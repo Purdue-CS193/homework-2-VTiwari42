@@ -146,7 +146,7 @@ public class Questions {
         int counter = 0;
         for (int i = 0; i < alphabetTemplate.length; i++) {
             if (alphabetTemplate[i] > 1) {
-                counter = counter + 1;
+                counter = counter + 1;// Testing GitPush
             }
         }
         return counter;
